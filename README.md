@@ -9,7 +9,7 @@ Ce dépôt contient le notebook associé au mémoire **« Détection de surconso
 ## Contenu
 
 * `Memoire_M2_IASD_Millet_Penelope.ipynb` — notebook principal.
-* data/REFIT_15min.csv — fichier de données fourni.
+*  REFIT_15min.csv — version nettoyée et agrégée (15 min) du jeu de données, obtenue après préparation des données.
   
 ### Format des données
 
