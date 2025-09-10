@@ -15,7 +15,7 @@ Ce dépôt contient le notebook associé au mémoire **« Détection de surconso
 
 | colonne     | type         | description                                    |
 | ----------- | ------------ | ---------------------------------------------- |
-| `house_id`  | int/str      | identifiant du foyer                           |
+| `house_id`  | str          | identifiant du foyer                           |
 | `Datetime`  | datetime ISO | horodatage (pas de 15 min)                     |
 | `Aggregate` | float        | puissance/énergie agrégée (W)                  |
 
