@@ -9,7 +9,7 @@ Ce dépôt contient le notebook associé au mémoire **« Détection de surconso
 ## Contenu
 
 * `Memoire_M2_IASD_Millet_Penelope.ipynb` — notebook principal.
-*  REFIT_15min.csv — version nettoyée et agrégée (15 min) du jeu de données, obtenue après préparation des données.
+*  Données : REFIT_15min.csv — version nettoyée et agrégée (15 min) du jeu de données, obtenue après préparation des données. Disponible en asset de Release (voir Téléchargement des données).
   
 ### Format des données
 
@@ -19,7 +19,7 @@ Ce dépôt contient le notebook associé au mémoire **« Détection de surconso
 | `Datetime`  | datetime ISO | horodatage (pas de 15 min)                     |
 | `Aggregate` | float        | puissance/énergie agrégée (W)                  |
 
-Par défaut, le notebook lit data/REFIT_15min.csv. Si vous déplacez/renommez le fichier, adaptez la constante DATA_PATH tout en haut du notebook.
+Par défaut, le notebook lit /content/REFIT_15min.csv. Si vous déplacez/renommez le fichier, adaptez la constante DATA_PATH tout en haut du notebook.
 
 ```python
 # Dans le notebook (cellule de config)
